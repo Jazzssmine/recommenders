@@ -134,8 +134,8 @@ reco_*.yaml
 *.dat
 *.csv
 *.zip
+*.7z
 .vscode/
-scripts/repo_metrics/config.py
 u.item
 ml-100k/
 ml-10M100K/
@@ -151,5 +151,17 @@ ml-20m/
 *.ckpt*
 *.png
 *.jpg
-*.gif
 *.jpeg
+*.gif
+*.model
+*.mml
+nohup.out
+
+#####  kdd 2020 tutorial data folder
+examples/07_tutorials/KDD2020-tutorial/data_folder/
+
+*.vec
+*.tsv
+*.sh
+
+tests/resources/
